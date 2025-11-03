@@ -2,6 +2,10 @@
 
 Implementation of RFC 862 - Echo Protocol using Kotlin and minimal dependencies.
 
+https://substack.com/inbox/post/177665315
+
+
+
 ## TO DO
 
 ### Step 1
@@ -9,7 +13,6 @@ Implementation of RFC 862 - Echo Protocol using Kotlin and minimal dependencies.
 In this step your goal is to build a simple server that will start-up, bind to all the local IP addresses, listen on port 7, and accept a TCP connection. To complete this step simply have the server print out a log message to show a connection has been accepted and then have it shutdown. Refer to the documentation for you programming language to find out how to write network programs using it.
 
 You can test your server using two terminals, in one run the server and in the other use netcat or telnet to connect to it.
-
 
 ### Step 2
 
