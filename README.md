@@ -4,8 +4,6 @@ Implementation of RFC 862 - Echo Protocol using Kotlin and minimal dependencies.
 
 https://substack.com/inbox/post/177665315
 
-
-
 ## TO DO
 
 ### Step 1
@@ -22,11 +20,9 @@ Note I’m putting ‘thread’ in quotes here because I’m referring to someth
 
 You can test your server using two terminals, in one run the server and in the other use netcat or telnet to connect to it.
 
-
 ### Step 3
 
 In this step your goal is to read data from the client and write that data back to the client. That should continue until the client terminates the connection.
-
 
 ### Step 4 
 
